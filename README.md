@@ -19,6 +19,8 @@ git clone  ce repo
 
 npm i
 
+installer node
+
 ## Development & Build
 
 Dans index.ts indiquer les paths du fichier d'entrée et de sortie par défaut ./assets/
