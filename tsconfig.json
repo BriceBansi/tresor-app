@@ -7,11 +7,11 @@
     ],
     "allowJs": true,
     "outDir": "build",
-    "rootDir": "src",
     "strict": true,
     "noImplicitAny": true,
     "esModuleInterop": true,
     "resolveJsonModule": true,
     "strictNullChecks": false,
+    "sourceMap": true
   }
 }
