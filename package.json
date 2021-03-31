@@ -9,7 +9,12 @@
     "start": "npm run build && node build/index.js",
     "start:dev": "nodemon"
   },
-  "keywords": ["typescript", "node", "jasmine", "fs"],
+  "keywords": [
+    "typescript",
+    "node",
+    "jasmine",
+    "fs"
+  ],
   "author": "BB",
   "license": "ISC",
   "devDependencies": {

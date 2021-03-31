@@ -21,12 +21,13 @@ npm i
 
 ## Development & Build
 
-Dans index.ts indiquer les paths du fichier d'entrée de sortie
+Dans index.ts indiquer les paths du fichier d'entrée et de sortie par défaut ./assets/
+/!\ Respecter le format de remplissage pour chaque type de catégorie du jeux
 ```
 PATH_IN = '/assets/jeu.txt'
 PATH_OUT = '/assets/result.txt'
 ```
-Pour packager dans ./build/ et obtenir le fichier de sortie
+Pour écrire dans le fichier de sortie lancer
 ```
 npm run start
 ```
