@@ -15,7 +15,7 @@ Cette application est un projet node permettant de suivre les déplacements et l
 
 ## Installation
 
-git clone  ce repo
+git clone  https://github.com/BriceBansi/tresor-app.git
 
 npm i
 
