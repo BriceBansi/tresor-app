@@ -112,7 +112,7 @@ describe('Jeu carte de trésor : Mise à jour des coordonnées de l\'aventurier 
   
   it('Les coordonnées de l\'aventurier devraient générées une erreur indiquant qu\'il a rencontré une montagne et ne peut plus avancer ', function () {
 
-    expect(listeAventuriersFunction).toThrowError('L\'aventurier ne peut pas continuer dans cette direction')
+    expect(listeAventuriersFunction).toThrowError(/L\'aventurier Lara ne peut pas continuer dans cette direction/)
   });
 });
 
