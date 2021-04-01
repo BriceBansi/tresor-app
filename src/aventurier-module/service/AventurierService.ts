@@ -108,7 +108,7 @@ export class AventurierService {
         if (!CarteService.isAventurierEstSurCelluleMax(aventurier, cellules)) {
             let cellule = CarteService.getCelluleAventurier(aventurier, cellules);       
             if (cellule?.isMontagne) {
-                throw new Error('L\'aventurier ne peut pas continuer dans cette direction')
+                throw new Error(`L\'aventurier ${aventurier.name} ne peut pas continuer dans cette direction`)
             }
             if (cellule?.isTresor) {
                 const idx = cellules.indexOf(cellule)

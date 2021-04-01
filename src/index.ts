@@ -1,7 +1,7 @@
 import { FichierService } from "./fichier-module/FichierService";
 
-const PATH_IN = '/assets/jeu.txt'
-const PATH_OUT = '/assets/result.txt'
+const PATH_IN = '/src/assets/jeu.txt'
+const PATH_OUT = '/src/assets/result.txt'
 
 try {
 

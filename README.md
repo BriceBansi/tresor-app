@@ -15,7 +15,7 @@ Cette application est un projet node permettant de suivre les déplacements et l
 
 ## Installation
 
-git clone  ce repo
+git clone  https://github.com/BriceBansi/tresor-app.git
 
 npm i
 
@@ -26,8 +26,8 @@ installer node
 Dans index.ts indiquer les paths du fichier d'entrée et de sortie par défaut ./assets/
 /!\ Respecter le format de remplissage pour chaque type de catégorie du jeux
 ```
-PATH_IN = '/assets/jeu.txt'
-PATH_OUT = '/assets/result.txt'
+PATH_IN = '/src/assets/jeu.txt'
+PATH_OUT = '/src/assets/result.txt'
 ```
 Pour écrire dans le fichier de sortie lancer
 ```
