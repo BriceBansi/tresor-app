@@ -150,9 +150,9 @@ export class AventurierService {
      * @returns aventurier
      */
     static majDeplacementAventurier(aventurier: Aventurier, deplacement: string, cellules: Cellule[]): Aventurier {
-            if (deplacement === 'D') {
+            if (deplacement === Deplacement.DROITE) {
                 aventurier = AventurierService.majDirectionDroiteAventurier(aventurier);
-            } else if (deplacement === 'G') {
+            } else if (deplacement === Deplacement.GAUCHE) {
                 aventurier = AventurierService.majDirectionGaucheAventurier(aventurier);
             }
             aventurier = AventurierService.avancerAventurier(aventurier, cellules);
